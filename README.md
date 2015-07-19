@@ -75,7 +75,7 @@ Path to the folder that needs to be scanned.
 #### dest
 Type: `String`
 
-Path where the `LICENSE` file will be written.
+Path to the file that will be written with the summary.
 
 #### options.safeLicenses
 Type: `Array[String]`
