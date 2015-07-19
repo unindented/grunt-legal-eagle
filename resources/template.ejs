@@ -1,0 +1,15 @@
+<% if (root.sourceText) { %><%= root.sourceText %><% } %><% if (dependencies && dependencies.length > 0) { %><% if (root.sourceText) { %>
+
+<% } %>This application bundles third-party packages in accordance with the following
+licenses:
+<% _.each(dependencies, function (dependency) { %>
+--------------------------------------------------------------------------------
+<% if (dependency.name) { %>
+Package: <%= dependency.name %><% } %><% if (dependency.repository) { %>
+Repository: <%= dependency.repository %><% } %><% if (dependency.license) { %>
+License: <%= dependency.license %><% } %><% if (dependency.source) { %>
+License Source: <%= dependency.source %><% } %><% if (dependency.sourceText) { %>
+Source Text:
+
+<%= dependency.sourceText %><% } %>
+<% }); %><% } %>

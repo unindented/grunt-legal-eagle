@@ -1,0 +1,44 @@
+{
+  "name":        "grunt-legal-eagle",
+  "description": "Generate a LICENSE file with all the licenses for your dependencies.",
+  "version":     "0.0.1",
+  "license":     "MIT",
+
+  "author": {
+    "name":  "Daniel Perez Alvarez",
+    "email": "unindented@gmail.com",
+    "url":   "http://unindented.org/"
+  },
+
+  "repository": {
+    "type": "git",
+    "url":  "git://github.com/unindented/grunt-legal-eagle.git"
+  },
+
+  "keywords": [
+    "gruntplugin",
+    "license"
+  ],
+
+  "scripts": {
+    "test": "grunt test"
+  },
+
+  "dependencies": {
+    "async":       "^1.3.0",
+    "fs-extra":    "^0.22.1",
+    "legal-eagle": "^0.10.0",
+    "lodash":      "^3.10.0"
+  },
+
+  "devDependencies": {
+    "grunt":                  "^0.4.0",
+    "grunt-contrib-clean":    "^0.6.0",
+    "grunt-contrib-jshint":   "^0.11.2",
+    "grunt-contrib-nodeunit": "^0.4.1"
+  },
+
+  "peerDependencies": {
+    "grunt": "^0.4.0"
+  }
+}
