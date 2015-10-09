@@ -27,7 +27,7 @@
   "dependencies": {
     "async":       "^1.4.2",
     "fs-extra":    "^0.24.0",
-    "legal-eagle": "^0.10.0",
+    "legal-eagle": "^0.11.0",
     "lodash":      "^3.10.1"
   },
 
