@@ -1,7 +1,7 @@
 {
   "name":        "grunt-legal-eagle",
   "description": "Generate a LICENSE file with all the licenses for your dependencies.",
-  "version":     "0.1.0",
+  "version":     "0.2.0",
   "license":     "MIT",
 
   "author": {
