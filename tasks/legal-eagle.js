@@ -43,7 +43,7 @@ var massageLicenses = function (options, licenses, callback) {
   var unsafeDependencies = _.filter(dependencies, function (dependency) {
     return dependency.license &&
       dependency.license !== 'UNKNOWN' &&
-      !_.contains(options.safeLicenses, dependency.license);
+      !_.includes(options.safeLicenses, dependency.license);
   });
 
   if (options.failOnUnknown && unknownDependencies.length > 0) {
