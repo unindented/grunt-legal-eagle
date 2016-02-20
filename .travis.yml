@@ -3,5 +3,13 @@ node_js:
   - '4.2'
   - '0.12'
 
+deploy:
+  provider: npm
+  email: unindented@gmail.com
+  api_key:
+    secure: LYKln/804DVClMMLtsHxq3rtnohiVnR5ce0awyrKfVpEaQ2GnZEEwrH+mSzf7WfHwzJp321e19u5ThM75yQ34TopwlbSEVysim/2vAPhaIx/J3i+R8IcRGOskMjVSm330FDtgBg6MmTJIsZttUE527WLVavZzAXo8DVgnFYpD4/8hFaSpRaFFFlNYyGHKrH2oScK5ald7fjN81YjrBWCsd8BN/xx0WmFfYtM4h1etMp3Ny8L+DNnWigAgsBYoVwMCHSsfveHSN2cCgNfCF0Is0NCMEOCjmWPVozOhIqWXurxDUFelGMQ4pe9gy/PaT2KoLCmA22WebwMfZB79n0wXcbGE2+xJlOWsO4nmGUw47D+83opjQj9YNygIxpbzucNqZn/AjUoQkKKdlJA/LVNXys4mr+UWgZQtJxcj11KBFqXKTmtn+4R6A5S7AkLV8tSYEizz42pjo23XlkaPlbhsJzvmqVUidmp0Cwp4szXii4LS0ANbqLOIQ7lrE5kHAZC99AZMEiPiJ2BxUPfSheUAm4EYZ7BBs+i2/n9jjp0iohPEBmxOSbp8A1y4p48SD3uKB0B52fkaavpKalYO8mwka9WrowDNiRpFJoJrtKrIevtlMx7IJjVIC7nDZ2CJpv+QBg8q5WpA/2YeNm/jr1mbRx7wctJHFoj3kMBa1WOpHY=
+  on:
+    tags: true
+
 before_install:
   - npm install -g grunt-cli
