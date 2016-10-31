@@ -23,7 +23,7 @@
     "async": "^2.0.0",
     "fs-extra": "^0.30.0",
     "legal-eagle": "^0.13.0",
-    "lodash": "^4.0.0"
+    "lodash": "^4.16.5"
   },
   "devDependencies": {
     "grunt": "^1.0.0",
