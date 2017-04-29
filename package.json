@@ -20,7 +20,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "async": "^2.0.0",
+    "async": "^2.4.0",
     "fs-extra": "^2.0.0",
     "legal-eagle": "^0.14.0",
     "lodash": "^4.0.0"
